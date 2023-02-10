@@ -1,5 +1,7 @@
 package matrix.mastermind.models;
 
+import java.util.HashMap;
+
 public class Answer {
 
     private String answer;

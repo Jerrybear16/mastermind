@@ -32,7 +32,7 @@ class GuessServiceTest {
 
         assertNotNull(response);
         assertFalse(response.isCorrect());
-        assertNull(response.getClue());
+        assertEquals(0,response.getClue().length());
     }
 
     @Test
@@ -45,7 +45,7 @@ class GuessServiceTest {
         assertNotNull(response);
         assertFalse(response.isCorrect());
         assertNotNull(response.getClue());
-        assertEquals(response.getClue().length(),1);
+        assertEquals(1,response.getClue().length());
         assertEquals(response.getClue(),"+");
     }
 
@@ -59,8 +59,22 @@ class GuessServiceTest {
         assertNotNull(response);
         assertFalse(response.isCorrect());
         assertNotNull(response.getClue());
-        assertEquals(response.getClue().length(),2);
-        assertEquals(response.getClue(),"+-");
+        //assertEquals(2,response.getClue().length());
+        assertEquals("+-",response.getClue());
+    }
+
+    @Test
+    void checkAnswerResponseShouldBePlusMinusMinus(){
+        Answer guess = new Answer("2223");
+        Answer answer = new Answer("3232");
+
+        GuessResponse response = service.checkAnswer(guess,answer);
+
+        assertNotNull(response);
+        assertFalse(response.isCorrect());
+        assertNotNull(response.getClue());
+        //assertEquals(2,response.getClue().length());
+        assertEquals("+--",response.getClue());
     }
 
 

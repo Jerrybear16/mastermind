@@ -35,6 +35,13 @@
             * isCorrect boolean
             * String clue is populated based on the number of correct numbers and their correct or incorrect positions
 
+## Next Steps
+    * Implement Guess validation
+        * guess must be numerical values betwee 1-6
+        * guess must be exactly 4 characters long
+    * Implement Guess validation in UI
+        * Do not allow inputs that would be invalid according to the domain rules
+
 ## Follow-Ups
 
     * Is Persistence an expectation from the Product?
@@ -46,4 +53,3 @@
         * Display something when the answer contains contains no correct characters or positions?
     * What kind of data should the application be keeping track of?
         * do we need a backlog of the guesses so far?
-        
