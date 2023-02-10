@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ddbbd7-3f81-47a4-a025-7a29a07a67e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/data/GuessRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/data/GuessRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/domain/GuessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/models/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/models/GuessResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/ui/MenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/ui/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/matrix/mastermind/data/GuessRepositoryDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/matrix/mastermind/data/GuessRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/matrix/mastermind/domain/GuessServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/matrix/mastermind/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matrix/mastermind/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design.md" beforeDir="false" afterPath="$PROJECT_DIR$/design.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -40,11 +51,44 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="matrix.mastermind.data" />
+      <recent name="matrix.mastermind.domain" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GuessServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mastermind" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matrix.mastermind.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="matrix.mastermind.domain" />
+      <option name="MAIN_CLASS_NAME" value="matrix.mastermind.domain.GuessServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GuessServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
